@@ -7,8 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Entities\" />
-      <Folder Include="SeedWorks\" />
+      <Folder Include="Entities\IdentityServer\ApiResources\" />
+      <Folder Include="Entities\IdentityServer\ApiScopes\" />
+      <Folder Include="Entities\IdentityServer\Clients\" />
+      <Folder Include="Entities\IdentityServer\Devices\" />
+      <Folder Include="Entities\IdentityServer\Grants\" />
+      <Folder Include="Entities\IdentityServer\IdentityResources\" />
     </ItemGroup>
 
 </Project>

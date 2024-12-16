@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Csharp.Domain\Csharp.Domain.csproj" />
+      <ProjectReference Include="..\Csharp.SharedKernel\Csharp.SharedKernel.csproj" />
+    </ItemGroup>
+
 </Project>
