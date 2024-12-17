@@ -13,4 +13,10 @@
       
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Diagnostics">
+        <HintPath>..\..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\9.0.0\ref\net9.0\Microsoft.AspNetCore.Diagnostics.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

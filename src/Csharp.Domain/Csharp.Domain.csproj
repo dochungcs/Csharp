@@ -13,6 +13,7 @@
       <Folder Include="Entities\IdentityServer\Devices\" />
       <Folder Include="Entities\IdentityServer\Grants\" />
       <Folder Include="Entities\IdentityServer\IdentityResources\" />
+      <Folder Include="SeedWork\ChangeTracking\" />
     </ItemGroup>
 
 </Project>
