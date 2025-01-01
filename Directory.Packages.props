@@ -41,6 +41,7 @@
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="$(AspnetVersion)" />
     <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(AspnetVersion)" />
     <PackageVersion Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="$(AspnetVersion)" />
+    <PackageVersion Include="Mirage.Token.AspNetCore" Version="1.0.1" />
     <!-- Entity Framework Core -->
     <PackageVersion Include="Pgvector.EntityFrameworkCore" Version="0.2.1" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(EfCoreVersion)" />

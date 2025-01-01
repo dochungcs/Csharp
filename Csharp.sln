@@ -34,6 +34,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp.EntityFrameworkCore"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp.Infrastructure", "src\Csharp.Infrastructure\Csharp.Infrastructure.csproj", "{F807911A-93CD-485B-9C29-2CFB7F1E75B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "requests", "requests", "{93FDE81C-1C19-4D5E-AFA9-BC0F63062A5C}"
+	ProjectSection(SolutionItems) = preProject
+		Csharp.Api.http = Csharp.Api.http
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp.Api", "src\Csharp.Api\Csharp.Api.csproj", "{F07600A2-07AD-44B3-BE62-F0105EEF7888}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +53,7 @@ Global
 		{3C706B7C-C3FE-4234-A2DC-C541FB686FCD} = {9057C681-1FFC-4B72-8350-8369D1E08F27}
 		{097E2A84-A844-44D9-BA58-B19072FCCAD4} = {9057C681-1FFC-4B72-8350-8369D1E08F27}
 		{F807911A-93CD-485B-9C29-2CFB7F1E75B9} = {9057C681-1FFC-4B72-8350-8369D1E08F27}
+		{F07600A2-07AD-44B3-BE62-F0105EEF7888} = {9057C681-1FFC-4B72-8350-8369D1E08F27}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B19962B8-9840-4FC0-8023-188CB81102FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +80,9 @@ Global
 		{F807911A-93CD-485B-9C29-2CFB7F1E75B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F807911A-93CD-485B-9C29-2CFB7F1E75B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F807911A-93CD-485B-9C29-2CFB7F1E75B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07600A2-07AD-44B3-BE62-F0105EEF7888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07600A2-07AD-44B3-BE62-F0105EEF7888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07600A2-07AD-44B3-BE62-F0105EEF7888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07600A2-07AD-44B3-BE62-F0105EEF7888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
